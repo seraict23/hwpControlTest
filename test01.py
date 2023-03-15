@@ -68,7 +68,7 @@ hwp_HT.DelimiterType = hwp.Delimiter("SemiBreve")
 hwp_HT.DelimiterEtc = ""
 hwp_HT.UserDefine = ""
 
-hwp.HAction.Execute("TableStringToTable", hwp.HParameterSet.HTableStrToTbl.HSet);
+hwp.HAction.Execute("TableStringToTable", hwp.HParameterSet.HTableStrToTbl.HSet)
 
 
 for i in range(1,7):
